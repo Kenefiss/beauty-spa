@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Brandon Grotesque Thin';
+  src: url('../fonts/BrandonGrotesque-Thin.eot') format('eot'),
+    url('../fonts/BrandonGrotesque-Thin.woff') format('woff'),
+    url('../fonts/BrandonGrotesque-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url('../fonts/BrandonGrotesque-Light.eot') format('eot'),
+    url('../fonts/BrandonGrotesque-Light.woff') format('woff'),
+    url('../fonts/BrandonGrotesque-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url('../fonts/BrandonGrotesque-Regular.eot') format('eot'),
+    url('../fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+    url('../fonts/BrandonGrotesque-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Medium';
+  src: url('../fonts/BrandonGrotesque-Medium.eot') format('eot'),
+    url('../fonts/BrandonGrotesque-Medium.woff2') format('woff2'),
+    url('../fonts/BrandonGrotesque-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}

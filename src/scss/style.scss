@@ -1,0 +1,70 @@
+@import 'vars';
+@import 'fonts';
+@import 'global';
+//-----------------------------------------------------------------------------------------------------------
+//
+//                                                    START CODE
+//
+//-----------------------------------------------------------------------------------------------------------
+
+.header__top {
+  max-width: 100%;
+  background-color: $bg;
+  height: 100px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+
+  li+li {
+    margin-left: 32px;
+  }
+
+  a {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.68px;
+    color: $w;
+    transition: all .4s;
+
+    &:hover {
+      color: #7aa481;
+    }
+  }
+}
+
+.header__btn {
+  text-transform: uppercase;
+  color: $w;
+  letter-spacing: 1.68px;
+  font-size: 14px;
+  padding: 20px 39px;
+  border-radius: 3px;
+  border: 2px solid #7aa481;
+  transition: all .4s;
+
+  &:hover {
+    background-color: #7aa481;
+  }
+}
+
+
+
+
+
+//-----------------------------------------------------------------------------------------------------------
+//
+//                                                    END CODE
+//
+//-----------------------------------------------------------------------------------------------------------
+
+@import 'media';
